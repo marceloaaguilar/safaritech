@@ -1,0 +1,274 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ 
+.inicial-screen{
+    background-image:  linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),url("images/home.jpg");
+    background-position: center; /* Center the image */
+    background-size: contain;
+    padding: 0rem 8rem 10rem 8rem;
+}
+
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color:#1FD200;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 1000;    
+ }
+ 
+
+
+
+  #logo-safari{
+    width: 10rem;
+  }
+
+
+  #title{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  #btn-Initial-Screen{
+    background-color: #F7E827;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 15rem;
+    border-radius: 25px;
+    color: black;
+  }
+
+  #btn-Initial-Screen a {
+    color: black;
+  }
+
+  .our-services{
+    background-color: black;
+  }
+
+  #title2{
+    padding: 4rem 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+  }
+
+  .card{
+    border-radius: 25px;
+  }
+  #cardSafari{
+    background-color: #F7E827;
+    padding: 2rem;
+  }
+
+.card-body{
+    text-align: center;
+}
+
+
+.card-img-top{
+    width: 7rem;
+    margin: auto;
+}
+.card-title{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.card-text{
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.rowCards{
+    padding-bottom: 3rem;
+}
+
+.our-clients{
+    background-color: #F7E827;
+    padding: 7rem;
+}
+
+#title3{
+    padding: 2rem 0rem 0rem 1rem; 
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+
+#clients-description{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contact{
+    background-image:  linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),url("images/technology.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding: 3rem;
+}
+
+
+
+#form-contact{
+    color: white;
+}
+
+.form-control{
+    background-color:rgba(0,0,0,0);
+    color: white;
+
+}
+
+.form-control:focus{
+    background-color:rgba(0,0,0,0);
+    color: white;
+}
+
+#btn-form{
+    margin-top: 2rem;
+    background-color: #F7E827;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 8rem;
+    border-radius: 25px;
+    color: black;
+  }
+
+  ul {
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  #socialIcons{
+    font-size: 1rem;
+    color: black;
+  }
+
+  #icon{
+    background-color: #F7E827;
+    border: solid 0.5rem #F7E827;
+    border-radius: 70px;
+    padding: 0rem 0.2rem 0rem 0.2rem;
+    color: black;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+  }
+
+  #places{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #rowFooter{
+    align-items: center;
+  }
+
+  #socialmedia{
+    align-items: center;
+  }
+
+
+  @media (max-width: 767px) {
+    #title{
+        color: white;
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+        font-weight: 600;
+      }
+
+    #text-initial{
+        padding: 1.5rem;
+        justify-content: center;
+        display: grid;
+    }
+
+    #navbarSafariTech{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap: 2rem;
+    }
+
+    .navbar-brand{
+        width: 9rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navbarContainer{
+        margin: 0;
+        padding: 0;
+    }
+
+    footer{
+        padding: 2rem;
+    }
+
+    .rowCards{
+        gap: 3rem;
+    }
+
+    .our-clients{
+        padding: 2rem;
+    }
+    #rowFooter{
+        gap: 2rem;
+    }
+
+    footer #logo-safari{
+        width: 10rem;
+    }
+    #places{
+        display: grid;
+        gap: 0.5rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    #socialIcons{
+        display: flex;
+        gap:  1rem;
+    }
+
+    #socialmedia{
+        font-size: 1.5rem;
+    }
+
+    #icon{
+        font-size: 2rem;
+    }
+  }
