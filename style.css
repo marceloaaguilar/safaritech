@@ -8,7 +8,7 @@
     background-image:url("images/home1.jpg");
     background-position: center; /* Center the image */
     background-size: cover;
-    padding: 0rem 8rem 10rem 8rem;
+    padding: 3rem 8rem 10rem 8rem;
 }
 
 .whatsapp-link{
@@ -30,12 +30,18 @@
 
   #logo-safari{
     width: 10rem;
+    padding-bottom: 1rem;
+  }
+
+  #text-initial{
+    align-items: center;
+    margin-top: 3rem;
   }
 
 
   #title{
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
   }
@@ -58,7 +64,7 @@
   }
 
   #title2{
-    padding: 4rem 2rem;
+    padding: 4rem 0 0 0;
     text-align: center;
     font-weight: 700;
     color: white;
@@ -98,7 +104,7 @@
 
 .our-clients{
     background-color: #F7E827;
-    padding: 7rem;
+    padding: 4rem;
 }
 
 #title3{
@@ -182,7 +188,7 @@
 
   #places{
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
 
   #rowFooter{
@@ -193,6 +199,35 @@
     align-items: center;
   }
 
+  .icons-clients{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .icon-grid{
+    display: grid;
+    font-size: 1.5rem;
+    color: #000000;
+    align-content: stretch;
+    align-items: stretch;
+    justify-items: center;
+    font-weight: 700;
+    gap: 0.4;
+  }
+
+  .icon-grid i {
+   font-size: 3rem;
+  }
+
+  #gymIcon{
+    width: 5rem;
+    color: #000000;
+  }
+
+  #form{
+    justify-content: center;
+  }
 
   @media (max-width: 767px) {
     #title{
@@ -248,7 +283,7 @@
         display: grid;
         gap: 0.5rem;
         font-size: 1rem;
-        padding: 1rem;
+        padding: 0;
     }
 
     #socialIcons{
@@ -262,5 +297,9 @@
 
     #icon{
         font-size: 2rem;
+    }
+
+    .icons-clients{
+      display: grid;
     }
   }
