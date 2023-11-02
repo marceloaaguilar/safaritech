@@ -104,11 +104,10 @@
 
 .our-clients{
     background-color: #F7E827;
-    padding: 4rem;
 }
 
 #title3{
-    padding: 2rem 0rem 0rem 1rem; 
+    padding: 4rem 0rem 0rem 1rem; 
     text-align: center;
     font-weight: 700;
     color: black;
@@ -193,7 +192,11 @@
 
   #rowFooter{
     align-items: center;
+    justify-content: center;
+    gap: 18rem;
   }
+
+  
 
   #socialmedia{
     align-items: center;
@@ -229,6 +232,30 @@
     justify-content: center;
   }
 
+  
+  .swiper {
+    height: 10rem;
+    margin: 60px;
+  }
+
+  
+
+  .swiper-wrapper{
+    transition-timing-function : linear !important;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+  }
+
+  #segmentos{
+    padding-bottom: 4rem;
+  }
+  
+
+
   @media (max-width: 767px) {
     #title{
         color: white;
@@ -263,15 +290,13 @@
 
     footer{
         padding: 2rem;
+        justify-content: center;
     }
 
     .rowCards{
         gap: 3rem;
     }
 
-    .our-clients{
-        padding: 2rem;
-    }
     #rowFooter{
         gap: 2rem;
     }
@@ -301,5 +326,33 @@
 
     .icons-clients{
       display: grid;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .swiper {
+      height: 25vh;
+      margin: 0;
+    }
+
+
+    #clients-description {
+      padding-bottom: 0rem;
+  }
+
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .rowCards {
+      gap: 2rem;
+    }
+
+    #rowFooter{
+      gap: 2rem;
     }
   }
