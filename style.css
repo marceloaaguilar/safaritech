@@ -395,7 +395,20 @@ a:hover {
       color: #F7E827;
       font-weight: 700;
     }
-    
+
+    #title{
+      padding-top: 2rem;
+      color: white;
+      font-size: 2.4rem;
+      line-height: 3.5rem;
+      font-weight: 600;
+    }
+
+  #text-initial{
+      padding: 1.5rem;
+      justify-content: center;
+      display: grid;
+  } 
     #descriptionThanksPage{
       font-size: 2rem;
       text-align: center;
