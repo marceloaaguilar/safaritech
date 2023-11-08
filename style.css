@@ -6,6 +6,7 @@
   100% { transform: rotate(0deg); }
 }
 
+
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -337,23 +338,77 @@ a:hover {
 {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-  
-  
-  
+
+
+#thanks-screen{
+  align-items: center;
+  background-image:url("images/Wallpaper_Stations_Modulos_Safari.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover;
+  height: 85vh;
+  padding: 3rem 8rem 10rem 8rem;
+}
+
+#thanks-initial{
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#titleThanks {
+  padding-top: 4rem;
+  font-size: 4rem;
+  animation: moving 1s, opacity 3s;
+  color: #F7E827;
+  font-weight: 700;
+}
+
+#descriptionThanksPage{
+  color: white;
+  animation: opacity 4s;
+  font-size: 2rem;
+}
+
+
+@keyframes moving {
+  from {transform: translateY(100px);}
+  to {transform: translateY(0px);}
+}
+
+@keyframes opacity { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 
   @media (max-width: 767px) {
-    #title{
-        color: white;
-        font-size: 2.4rem;
-        line-height: 3.5rem;
-        font-weight: 600;
-      }
 
-    #text-initial{
-        padding: 1.5rem;
-        justify-content: center;
-        display: grid;
+    #titleThanks {
+      text-align: center;
+      padding-top: 3rem;
+      font-size: 3rem;
+      animation: moving 1s, opacity 3s;
+      color: #F7E827;
+      font-weight: 700;
+    }
+    
+    #descriptionThanksPage{
+      font-size: 2rem;
+      text-align: center;
+      color: white;
+      animation: opacity 4s;
+      font-size: 1.5rem;
+    }
+
+    #thanks-initial{
+      padding-top: 5rem;
+      align-items: center;
+      display: grid;
+      justify-content: center;
     }
 
     #navbarSafariTech{
